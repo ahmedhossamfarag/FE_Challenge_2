@@ -1,0 +1,134 @@
+/*nav bar styles*/
+
+.nav-link:hover {
+    color: blue;
+    text-decoration-line: underline
+}
+
+.nav-menu .row {
+    max-width: 1000px;
+    margin-right: 1px
+}
+
+.mt-10{
+    margin-top:100px;
+}
+
+img {
+   width: 100%
+}
+
+.mw-400{
+    max-width:400px
+}
+
+.mw-800{
+    max-width:800px
+}
+
+/*body styles*/
+
+@keyframes body-des-mob {
+    from {
+        width:100%
+    }
+
+    to {
+        width:400px
+    }
+}
+
+@keyframes body-mob-des {
+    from {
+        width:400px
+    }
+
+    to {
+        width:100%
+    }
+}
+
+#body{
+    animation-duration:0.5s
+}
+
+/*template styles*/
+
+.template {
+    width: 300px;
+}
+
+.template .view{
+    height:300px;
+}
+
+.template img{
+    position:absolute;
+    width:300px;
+    height:inherit;
+}
+
+.template .txt{
+    position:relative;
+    z-index:100;
+    width: inherit;
+    height:inherit;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    color:white;
+    opacity:0;
+}
+
+.template .txt:hover{
+    opacity:0.8
+}
+
+/*footer styles*/
+
+#footer{
+    margin-top:100px
+}
+
+#footer li {
+    margin-top:10px;
+}
+
+#footer a{
+    color:black;
+    text-decoration:none;
+}
+
+    #footer a label {
+        width: 100%
+    }
+
+#footer a:hover{
+    color:blue
+}
+
+#footer .list-group{
+    list-style:none;
+}
+
+@media (min-width: 1000px) {
+    #footer{
+        display:flex;
+        justify-content:center;
+        gap:20px
+    }
+    #footer .fh{
+        pointer-events:none
+    }
+    #footer .fh:before{
+        content:none
+    }
+    #footer .list{
+        width:20%
+    }
+    #footer .collapse{
+        display:block;
+    }
+
+}

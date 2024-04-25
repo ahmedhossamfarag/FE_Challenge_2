@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "fe_challenge_2", "FE_Challenge_2\fe_challenge_2.esproj", "{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B49CD0-BF2B-4A77-B76B-639AFBB66861}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61BFC46F-AE8D-411C-809B-908D03548AF7}
+	EndGlobalSection
+EndGlobal
